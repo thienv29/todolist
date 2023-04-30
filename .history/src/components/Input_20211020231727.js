@@ -1,0 +1,16 @@
+import React from "react";
+import TextField from "@mui/material/TextField";
+import SendIcon from '@mui/icons-material/Send';
+export default function Input() {
+    return (
+        <div className="inputTodo">
+            <TextField
+                required
+                id="outlined-required"
+                label="Input your subject"
+                
+            />
+
+        </div>
+    );
+}

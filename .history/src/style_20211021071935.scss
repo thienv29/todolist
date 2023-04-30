@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B262C;
+}
+.main{
+    width: 800px;
+    height: 100%;
+    padding-top: 30%;
+}
+.inputTodo{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+}

@@ -1,0 +1,14 @@
+export const initialState = localStorage.getItem('TodoList') ||  [];
+const TodoListReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case "SET_COMPLETE":
+            return [...todo];
+        case "DELETE_ELEMENT":
+            return 
+        case "RESET":
+            return initialState;
+
+        default:
+            return state;
+    }
+};

@@ -1,0 +1,1 @@
+export const initialState = localStorage.getItem('list') [];

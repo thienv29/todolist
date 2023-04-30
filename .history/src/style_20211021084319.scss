@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #1B262C;
+}
+.main{
+    width: 800px;
+    height: 100%;
+    padding-top: 20%;
+    background-color: red;
+}
+.inputTodo{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    .input{
+        width: 50%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: medium;
+    
+    }
+    .inputTime{
+        position: absolute;
+    }
+    .MuiButton-root.MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-sghohy-MuiButtonBase-root-MuiButton-root
+    .MuiButton-endIcon.MuiButton-iconSizeMedium.css-9tj150-MuiButton-endIcon{
+        padding: 0;
+        margin: 0;
+    }
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.css-a0vo9r-MuiGrid-root
+    {
+        text-align: right;
+    }
+}
+.todo{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin: 10px 0px;
+}
+

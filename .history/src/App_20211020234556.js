@@ -1,0 +1,22 @@
+import React, { useState } from "react";
+import TodoList from "./components/TodoList.js";
+import Input from "./components/Input.js";
+export default function App() {
+    const [mode, setMode] = useState("light");
+
+    const theme = React.useMemo(
+        () =>
+            createTheme({
+                palette: {
+                    mode,
+                },
+            }),
+        [mode]
+    );
+    return (
+        <div className="main">
+            <Input />
+            <TodoList />
+        </div>
+    );
+}
